@@ -2,20 +2,26 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css./styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>HTML help</title>
+    <title>Peek-a-boo</title>
   </head>
   <body>
     <div class="container">
-      <h1>HTML help</h1>
+      
+      <h1>Peek-a-boo</h1>
+      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceipt.</p>
       <h2> This is a walrus baby.</h2>
 
-      <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+      <div id="initially-showing">
+        <p>Let's play peek-a-boo.<span class="clickable"> click here</span> to see a surprise</p>
+      </div>
 
-      <p>Look at this cute walrus!</p>
+      <div id="initially-hidden"">
+        <p>Look at this cute walrus!<span class="clickable"> click here</span> to hide her again.</p>
       <img src="img/walrus.jpg">
+      </div>
     </div>
-
   </body>
 </html>
